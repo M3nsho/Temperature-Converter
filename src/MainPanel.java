@@ -88,7 +88,7 @@ public class MainPanel extends JPanel {
 
                 parent.updateResult(resultText, celsiusValue); // هنا ببعت القيم للكلاس الأب
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(parent, "Please enter a valid number for the temperature."); // دا الاكسبشن هاندلنج
+                JOptionPane.showMessageDialog(parent, "Please enter a valid number for the temperature."); // الرسالة اللي هتظهر اما اليوزر يدخل حاجة غير رقم
             }
         });
     }
